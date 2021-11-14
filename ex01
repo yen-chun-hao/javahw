@@ -1,0 +1,25 @@
+class CRectangle
+{
+    int width;
+    int height;
+    public CRectangle(int w ,int h )
+    {
+        this.width=w;
+        this.height=h;
+
+    }
+
+    public void show()
+    {
+        System.out.println("width="+width+", height="+height);
+    
+    }
+}
+public class ex01
+{
+    public static void main(String args[])
+    {
+        CRectangle cirl=new CRectangle(10,8);
+        cirl.show();
+    }
+}
